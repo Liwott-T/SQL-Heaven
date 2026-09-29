@@ -1,0 +1,45 @@
+body {
+    background-color: #8ecae6;
+    width: 200%;
+}
+
+.main-content {
+    width: 200%;
+}
+
+.mesa-jogador {
+    position: absolute;
+    bottom: 0;
+}
+
+#caderninho {
+    height: 240px; /* Mudar depois para % */
+    width: auto;
+    margin: 60px 200px;
+    cursor: pointer;
+}
+
+#menu-caderninho {
+    position: fixed;
+    display: none;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-button {
+    background-color: darkred;
+    padding: 0px 10px;
+    color: white;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border: 2px black;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
