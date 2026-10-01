@@ -8,6 +8,34 @@ body {
     width: 200vw;
 }
 
+html {
+    cursor: url("/assets/cafe.png"), auto;
+}
+
+::-webkit-scrollbar {
+    height: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #219EBC;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #219EBC;
+    border: #023047 solid 3px;
+    border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1a7e96;
+}
+
+
+::-webkit-scrollbar-button {
+    background: #023047;
+}
+
+
 .main-content {
     width: 200%;
 }
@@ -15,13 +43,25 @@ body {
 .mesa-jogador {
     position: absolute;
     bottom: 0;
+    background-color: #ff914d;
+    margin: 0px 100px;
+    height: 280px;
+    width: 1600px;
+    z-index: 5;
+    display: flex;
 }
 
 #caderninho {
-    height: 240px; /* Mudar depois para % */
+    height: 260px; /* Mudar depois para % */
     width: auto;
-    margin: 60px 200px;
+    margin: 60px 100px 0px 200px;
     cursor: pointer;
+    z-index: 10;
+    transform: translate(-150px, -100px);
+}
+
+#caderninho:hover {
+
 }
 
 #menu-caderninho {
@@ -29,11 +69,18 @@ body {
     display: none;
     left: 0;
     top: 0;
-    z-index: 10;
+    z-index: 999;
     height: 100vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
+}
+
+#jogador {
+    height: 240px;
+    width: auto;
+    z-index: 10;
+    transform: translate(-160px, -120px);
 }
 
 .close-button {
@@ -47,4 +94,9 @@ body {
     border-radius: 8px;
     margin: 5px;
     cursor: pointer;
+}
+
+#kubo {
+    height: 240px;
+    width: auto;
 }
