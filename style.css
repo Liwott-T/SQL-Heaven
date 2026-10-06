@@ -74,7 +74,9 @@ html {
     width: 100vw;
     justify-content: center;
     align-items: center;
+    background: #00000080;
 }
+
 
 #jogador {
     height: 240px;
@@ -98,5 +100,10 @@ html {
 
 #kubo {
     height: 240px;
+    width: auto;
+}
+
+#caderninho_aberto {
+    height: 120%;
     width: auto;
 }
