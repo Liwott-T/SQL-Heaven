@@ -52,12 +52,12 @@ html {
 }
 
 #caderninho {
+    position: absolute;
     height: 260px; /* Mudar depois para % */
     width: auto;
-    margin: 60px 100px 0px 200px;
     cursor: pointer;
     z-index: 10;
-    transform: translate(-150px, -100px);
+    transform: translate(50px, -40px);
 }
 
 #caderninho:hover {
@@ -79,26 +79,27 @@ html {
 
 
 #jogador {
+    position: absolute;
     height: 240px;
     width: auto;
     z-index: 10;
-    transform: translate(-160px, -120px);
+    transform: translate(360px, -120px);
+    margin: 360px, 120px;
 }
 
-.close-button {
-    background-color: darkred;
+.close-button-img {
+    height: 60px;
+    width: auto;
     padding: 10px;
     color: white;
     left: 0;
     top: 0;
     position: absolute;
-    border: 1px solid black;
-    border-radius: 8px;
-    margin: 5px;
     cursor: pointer;
 }
 
 #kubo {
+    position: absolute;
     height: 240px;
     width: auto;
 }
